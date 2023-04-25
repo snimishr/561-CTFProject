@@ -1,0 +1,30 @@
+<!-- index.html-->
+
+<html>
+  <head>
+    <title>Flag2</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='my-style.css') }}”> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel=”stylesheet” integrity=”sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  </head>
+  <body>
+  </body>
+</html>
+<body>
+<p>Hello! I received this suspicious message: <br>
+     <b>'HKO{3Fk186r4-CkR9-11Fn-cOf1-0242Mh120002torN2}'</b>
+     and this image. Help me decrypt this
+      <br></p>
+      <img src="/static/images/Flag2image.png" alt="Flag2 Image" width="200" height="200">
+      
+
+      <form method="post" action="/ValidationFlag2">
+        <label for="flag2">Flag 2:</label>
+        <input type="text" id="flag2" name="flag2" style="width: 300px;"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+      
+<!-- ... -->
+</body>
+</html>
