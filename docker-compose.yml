@@ -7,6 +7,6 @@ services:
       context: .
       dockerfile: CTFDockerfile
     ports:
-      - "80:5050"
+      - "5000:5000"
     volumes:
       - ./src/data:/app/data

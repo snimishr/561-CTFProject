@@ -6,6 +6,6 @@ WORKDIR /app
 
 RUN echo "$PWD"
 
-COPY ./* .
+COPY ./src/. .
 
 ENTRYPOINT ["python", "main.py"]
