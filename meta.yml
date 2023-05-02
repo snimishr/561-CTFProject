@@ -1,0 +1,16 @@
+name: Three of a Kind!
+description:
+  It a simple challenge which has three flags hidden within images, files and texts.
+
+  Run: ssh -L <local_port>:ctfproject:5000 -p 56151 <user>@cs561.cs.umass.edu
+
+Go to: localhost:<local_port>
+
+All Flags are on different pages. Submit the last flag as the final answer.
+  
+value: 100
+category: Web
+flag: CTF{5037b9b2-ddf3-11ed-b5ea-0242ac120002}
+
+# administrative
+container_name: misc-free-points
